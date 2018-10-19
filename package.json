@@ -1,0 +1,14 @@
+{
+  "name": "vanilla-dnd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:suzuki11109/vanilla-dnd.git",
+  "author": "Suzuki Aki <suzuki11109@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "serve": "^10.0.2"
+  },
+  "scripts": {
+    "start": "serve"
+  }
+}
