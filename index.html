@@ -1,13 +1,14 @@
 <html>
   <head>
+    <title>Vanilla drag and drop</title>
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
   <body>
     <div id="drop-area">
       <form class="my-form" action="">
-        <p>Upload here</p>
+        <p>Drop file here to upload</p>
         <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)" />
-        <label class="button" for="fileElem">Select some files</label>
+        <label class="button" for="fileElem">Browse files</label>
       </form>
       <div id="gallery"></div>
     </div>
